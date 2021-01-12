@@ -1,0 +1,21 @@
+.category-item {
+    width: 80px;
+    height: 80px;
+    background-color: #AAE09A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.category-item-active {
+    background-color: #FFF !important;
+}
+
+.category-image {
+    width: 55px;
+    height: 55px;
+}

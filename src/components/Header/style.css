@@ -1,0 +1,40 @@
+.header {
+    background-color: #136713;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    height: 70px;
+    width: auto;
+}
+
+.header__input {
+    border: 0;
+    border-radius: 25px;
+    width: 0px;
+    height: 50px;
+    background-color: #FFF;
+    background-image: url('../../assets/search.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 50px;
+    outline: 0;
+    transition: all ease .2s;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.header__input:focus {
+    cursor: text;
+}
+
+.header__input-active {
+    width: 200px !important;
+}
+
+/* https://api.b7web.com.br/devsfood/api */

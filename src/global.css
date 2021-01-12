@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    background-color: #FF0000;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #136713;
+    width: 80px;
+}
+
+.content {
+    display: flex;
+    background-color: #00980d;
+    background-image: url('./assets/bg.png');
+    flex: 1;
+    overflow-y: auto;
+}

@@ -1,0 +1,41 @@
+.product-item {
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #136713;
+    cursor: pointer;
+}
+
+.product__photo {
+    width: 100px;
+}
+
+.product__photo img {
+    width: 100%;
+}
+
+.product__info {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.product__info > .product__name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product__info > .product__price {
+    font-size: 14px;
+}
+
+.product__info > .product__ingredients {
+    font-size: 11px;
+}
+
+.product__button > i {
+    font-size: 15px;
+}

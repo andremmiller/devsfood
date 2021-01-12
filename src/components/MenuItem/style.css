@@ -1,0 +1,19 @@
+a.menu-item > i {
+    font-size: 30px;
+    color: #FFF
+}
+
+a.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+a.menu-item__active {
+    background-color: #0B4D0B;
+}
